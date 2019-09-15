@@ -3,27 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7721D818F6965D15FB580368 /* Pods_InventoryScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD1E9C05D6DA0F94F0B16A2 /* Pods_InventoryScanner.framework */; };
 		7F81AC56232E69AD00F6E0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81AC55232E69AD00F6E0BE /* AppDelegate.swift */; };
-		7F81AC58232E69AD00F6E0BE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81AC57232E69AD00F6E0BE /* FirstViewController.swift */; };
-		7F81AC5A232E69AD00F6E0BE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81AC59232E69AD00F6E0BE /* SecondViewController.swift */; };
-		7F81AC5D232E69AD00F6E0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F81AC5B232E69AD00F6E0BE /* Main.storyboard */; };
 		7F81AC5F232E69B000F6E0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F81AC5E232E69B000F6E0BE /* Assets.xcassets */; };
-		7F81AC62232E69B000F6E0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F81AC60232E69B000F6E0BE /* LaunchScreen.storyboard */; };
+		7F81AC6D232E6A1F00F6E0BE /* ScanInventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81AC6A232E6A1F00F6E0BE /* ScanInventoryViewController.swift */; };
+		7F81AC6E232E6A1F00F6E0BE /* ViewInventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81AC6B232E6A1F00F6E0BE /* ViewInventoryViewController.swift */; };
+		7F81AC6F232E6A1F00F6E0BE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81AC6C232E6A1F00F6E0BE /* MenuViewController.swift */; };
+		7F81AC71232E6A3200F6E0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F81AC70232E6A3200F6E0BE /* Main.storyboard */; };
+		7F81AC74232E6B8C00F6E0BE /* UITextField+DoneCancelToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81AC73232E6B8C00F6E0BE /* UITextField+DoneCancelToolbar.swift */; };
+		7F81AC76232E6B9300F6E0BE /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81AC75232E6B9300F6E0BE /* RoundButton.swift */; };
+		7F81AC83232E90A000F6E0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F81AC82232E90A000F6E0BE /* LaunchScreen.storyboard */; };
+		7F81AC8C232E976100F6E0BE /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 7F81AC8B232E976100F6E0BE /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BD1E9C05D6DA0F94F0B16A2 /* Pods_InventoryScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InventoryScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D159688DEFEFA6FE6632B4 /* Pods-InventoryScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryScanner.release.xcconfig"; path = "Target Support Files/Pods-InventoryScanner/Pods-InventoryScanner.release.xcconfig"; sourceTree = "<group>"; };
 		7F81AC52232E69AD00F6E0BE /* InventoryScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F81AC55232E69AD00F6E0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F81AC57232E69AD00F6E0BE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7F81AC59232E69AD00F6E0BE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		7F81AC5C232E69AD00F6E0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F81AC5E232E69B000F6E0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7F81AC61232E69B000F6E0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F81AC63232E69B000F6E0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F81AC6A232E6A1F00F6E0BE /* ScanInventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanInventoryViewController.swift; sourceTree = "<group>"; };
+		7F81AC6B232E6A1F00F6E0BE /* ViewInventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInventoryViewController.swift; sourceTree = "<group>"; };
+		7F81AC6C232E6A1F00F6E0BE /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7F81AC70232E6A3200F6E0BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7F81AC73232E6B8C00F6E0BE /* UITextField+DoneCancelToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+DoneCancelToolbar.swift"; sourceTree = "<group>"; };
+		7F81AC75232E6B9300F6E0BE /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		7F81AC81232E6E4700F6E0BE /* InventoryScanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InventoryScanner.entitlements; sourceTree = "<group>"; };
+		7F81AC82232E90A000F6E0BE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F81AC8B232E976100F6E0BE /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		BCFF856CEA0B1023D81C3128 /* Pods-InventoryScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryScanner.debug.xcconfig"; path = "Target Support Files/Pods-InventoryScanner/Pods-InventoryScanner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7721D818F6965D15FB580368 /* Pods_InventoryScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +56,8 @@
 			children = (
 				7F81AC54232E69AD00F6E0BE /* InventoryScanner */,
 				7F81AC53232E69AD00F6E0BE /* Products */,
+				8AC6FB9442DBB2BC4D958029 /* Pods */,
+				8DAE752E1490FD8008CDFB20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +72,53 @@
 		7F81AC54232E69AD00F6E0BE /* InventoryScanner */ = {
 			isa = PBXGroup;
 			children = (
+				7F81AC81232E6E4700F6E0BE /* InventoryScanner.entitlements */,
+				7F81AC72232E6B7E00F6E0BE /* Supporting Files */,
+				7F81AC69232E69FA00F6E0BE /* Controllers */,
 				7F81AC55232E69AD00F6E0BE /* AppDelegate.swift */,
-				7F81AC57232E69AD00F6E0BE /* FirstViewController.swift */,
-				7F81AC59232E69AD00F6E0BE /* SecondViewController.swift */,
-				7F81AC5B232E69AD00F6E0BE /* Main.storyboard */,
+				7F81AC70232E6A3200F6E0BE /* Main.storyboard */,
 				7F81AC5E232E69B000F6E0BE /* Assets.xcassets */,
-				7F81AC60232E69B000F6E0BE /* LaunchScreen.storyboard */,
 				7F81AC63232E69B000F6E0BE /* Info.plist */,
+				7F81AC82232E90A000F6E0BE /* LaunchScreen.storyboard */,
 			);
 			path = InventoryScanner;
+			sourceTree = "<group>";
+		};
+		7F81AC69232E69FA00F6E0BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F81AC6C232E6A1F00F6E0BE /* MenuViewController.swift */,
+				7F81AC6A232E6A1F00F6E0BE /* ScanInventoryViewController.swift */,
+				7F81AC6B232E6A1F00F6E0BE /* ViewInventoryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F81AC72232E6B7E00F6E0BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F81AC8B232E976100F6E0BE /* Images */,
+				7F81AC75232E6B9300F6E0BE /* RoundButton.swift */,
+				7F81AC73232E6B8C00F6E0BE /* UITextField+DoneCancelToolbar.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AC6FB9442DBB2BC4D958029 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF856CEA0B1023D81C3128 /* Pods-InventoryScanner.debug.xcconfig */,
+				63D159688DEFEFA6FE6632B4 /* Pods-InventoryScanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DAE752E1490FD8008CDFB20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BD1E9C05D6DA0F94F0B16A2 /* Pods_InventoryScanner.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F81AC66232E69B000F6E0BE /* Build configuration list for PBXNativeTarget "InventoryScanner" */;
 			buildPhases = (
+				E848D28F6C4C0842E9CB04F3 /* [CP] Check Pods Manifest.lock */,
 				7F81AC4E232E69AD00F6E0BE /* Sources */,
 				7F81AC4F232E69AD00F6E0BE /* Frameworks */,
 				7F81AC50232E69AD00F6E0BE /* Resources */,
+				3E410B1CFCD54B7021BDD8B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +155,12 @@
 				TargetAttributes = {
 					7F81AC51232E69AD00F6E0BE = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,45 +187,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F81AC62232E69B000F6E0BE /* LaunchScreen.storyboard in Resources */,
+				7F81AC83232E90A000F6E0BE /* LaunchScreen.storyboard in Resources */,
+				7F81AC8C232E976100F6E0BE /* Images in Resources */,
+				7F81AC71232E6A3200F6E0BE /* Main.storyboard in Resources */,
 				7F81AC5F232E69B000F6E0BE /* Assets.xcassets in Resources */,
-				7F81AC5D232E69AD00F6E0BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E410B1CFCD54B7021BDD8B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InventoryScanner/Pods-InventoryScanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InventoryScanner/Pods-InventoryScanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InventoryScanner/Pods-InventoryScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E848D28F6C4C0842E9CB04F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InventoryScanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F81AC4E232E69AD00F6E0BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F81AC5A232E69AD00F6E0BE /* SecondViewController.swift in Sources */,
+				7F81AC76232E6B9300F6E0BE /* RoundButton.swift in Sources */,
+				7F81AC6F232E6A1F00F6E0BE /* MenuViewController.swift in Sources */,
 				7F81AC56232E69AD00F6E0BE /* AppDelegate.swift in Sources */,
-				7F81AC58232E69AD00F6E0BE /* FirstViewController.swift in Sources */,
+				7F81AC74232E6B8C00F6E0BE /* UITextField+DoneCancelToolbar.swift in Sources */,
+				7F81AC6D232E6A1F00F6E0BE /* ScanInventoryViewController.swift in Sources */,
+				7F81AC6E232E6A1F00F6E0BE /* ViewInventoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7F81AC5B232E69AD00F6E0BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F81AC5C232E69AD00F6E0BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7F81AC60232E69B000F6E0BE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F81AC61232E69B000F6E0BE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7F81AC64232E69B000F6E0BE /* Debug */ = {
@@ -284,8 +373,11 @@
 		};
 		7F81AC67232E69B000F6E0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCFF856CEA0B1023D81C3128 /* Pods-InventoryScanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = InventoryScanner/InventoryScanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9TBST962S;
 				INFOPLIST_FILE = InventoryScanner/Info.plist;
@@ -293,8 +385,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emdipkollc.InventoryScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spotonresponse.InventoryScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,8 +395,11 @@
 		};
 		7F81AC68232E69B000F6E0BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D159688DEFEFA6FE6632B4 /* Pods-InventoryScanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = InventoryScanner/InventoryScanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9TBST962S;
 				INFOPLIST_FILE = InventoryScanner/Info.plist;
@@ -311,7 +407,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emdipkollc.InventoryScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spotonresponse.InventoryScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
