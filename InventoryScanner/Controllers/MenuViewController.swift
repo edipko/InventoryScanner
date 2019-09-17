@@ -35,6 +35,9 @@ class MenuViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+        
+        self.lblViewInventory.text = "View Inventory (\(self.appDelegate.inventory.count))"
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -92,8 +95,20 @@ class MenuViewController: UITableViewController {
     
     @IBAction func saveToiCloud() {
         
-        let activityController = (UIActivityViewController(activityItems: [fileUrl!], applicationActivities: nil));
-            present(activityController, animated: true, completion: nil);
+       // let activityController = (UIActivityViewController(activityItems: [fileUrl!], applicationActivities: nil));
+       //     present(activityController, animated: true, completion: nil);
+        
+        let activityViewController = UIActivityViewController(activityItems: [fileUrl!], applicationActivities: nil)
+        
+        if let popoverController = activityViewController.popoverPresentationController {
+            popoverController.sourceRect = CGRect(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2, width: 0, height: 0)
+            popoverController.sourceView = self.view
+            popoverController.permittedArrowDirections = UIPopoverArrowDirection(rawValue: 0)
+        }
+        
+        self.present(activityViewController, animated: true, completion: nil)
+        
+        
         
     }
 }
