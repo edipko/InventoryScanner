@@ -1,0 +1,6 @@
+framework module Pods_InventoryScanner {
+  umbrella header "Pods-InventoryScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

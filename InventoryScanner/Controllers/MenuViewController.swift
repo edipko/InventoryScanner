@@ -49,10 +49,29 @@ class MenuViewController: UITableViewController {
             //self.view.makeToast("Data Loaded")
             print("Taking no action");
         case 4:
-            self.appDelegate.clearInventory()
-            self.saveData()
-            self.loadData()
-            self.view.makeToast("Data Cleared", duration: 3.0, position: .bottom)
+            let alert = UIAlertController(title: "Type 'Delete Data' if you are sure:", message: nil, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+            
+            alert.addTextField(configurationHandler: { textField in
+                textField.placeholder = "Delete Data"
+            })
+            
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+                
+                if let code = alert.textFields?.first?.text {
+                    if code == "Delete Data" {
+                        print("Deleting data");
+                        self.appDelegate.clearInventory()
+                        self.saveData()
+                        self.loadData()
+                        self.view.makeToast("Data Cleared", duration: 3.0, position: .bottom)
+                    } else {
+                        print("Not Deleting data");
+                    }
+                }
+            }))
+            
+            self.present(alert, animated: true)
         default:
             print("Taking no action");
         }
