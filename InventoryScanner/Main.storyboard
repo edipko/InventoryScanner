@@ -171,7 +171,6 @@
                                         <rect key="frame" x="0.0" y="0.0" width="364" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="1Id-wh-c4L"/>
-                                            <constraint firstAttribute="height" constant="40" id="cy8-1u-J4A"/>
                                         </constraints>
                                         <attributedString key="attributedText"/>
                                         <nil key="highlightedColor"/>
