@@ -172,7 +172,7 @@ CaptureHelperDeviceDecodedDataDelegate
     
     @IBAction func addInventoryClick(_ sender: Any) {
         
-        let output = "\(self.txtBarCode.text ?? "")|\(self.txtQuantity.text ?? "")|\(self.txtNotes.text ?? "")";
+        let output = "\(self.txtQuantity.text ?? "")|\(self.txtNotes.text ?? "")|\(self.txtBarCode.text ?? "")";
         appDelegate.inventory.add(output);
         
         print("Added: \(output)");
@@ -267,7 +267,7 @@ CaptureHelperDeviceDecodedDataDelegate
                 
                 var itemArr = stringValue.components(separatedBy: "|")
                 var itemName = "";
-                if (itemArr.count > 0) {
+                if (itemArr.count > 1) {
                     itemName = itemArr[1];
                 } else {
                     itemName = ""
