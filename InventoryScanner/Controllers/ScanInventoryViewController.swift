@@ -115,7 +115,7 @@ CaptureHelperDeviceDecodedDataDelegate
                                         
                                         var itemArr = stringValue.components(separatedBy: "|")
                                         var itemName = "";
-                                        if (itemArr.count > 0) {
+                                        if (itemArr.count > 1) {
                                             itemName = itemArr[1];
                                         } else {
                                             itemName = ""
