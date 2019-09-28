@@ -17,6 +17,7 @@ class MenuViewController: UITableViewController {
     
     @IBOutlet weak var lblViewInventory: UILabel!
     @IBOutlet weak var lblLoadData: UILabel!
+    @IBOutlet weak var lblVersion: UILabel!;
     
     
     override func viewDidLoad() {
@@ -36,7 +37,7 @@ class MenuViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        
+        self.lblVersion.text = " Version: \(Bundle.main.infoDictionary!["CFBundleShortVersionString"] ?? "unknown")"
         self.lblViewInventory.text = "View Inventory (\(self.appDelegate.inventory.count))"
     }
     

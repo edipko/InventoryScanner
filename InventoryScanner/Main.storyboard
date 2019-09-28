@@ -32,11 +32,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="K30-f1-WdN">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                         <sections>
                             <tableViewSection id="daf-7b-oAl">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="HC5-8b-yJG" style="IBUITableViewCellStyleDefault" id="To2-S2-RNR" userLabel="ScanInvTableCell">
-                                        <rect key="frame" x="0.0" y="10" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="54" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="To2-S2-RNR" id="ngk-Hh-TV6">
                                             <rect key="frame" x="0.0" y="0.0" width="347.5" height="44"/>
@@ -56,7 +63,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationLevel="1" indentationWidth="0.0" textLabel="U9b-ap-MxC" style="IBUITableViewCellStyleDefault" id="kUX-al-4H7" userLabel="ViewInvTableCell">
-                                        <rect key="frame" x="0.0" y="54" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="98" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kUX-al-4H7" id="90d-co-msi">
                                             <rect key="frame" x="0.0" y="0.0" width="347.5" height="44"/>
@@ -76,7 +83,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationLevel="1" indentationWidth="0.0" textLabel="svG-Uv-Vgi" style="IBUITableViewCellStyleDefault" id="S7G-s9-7Bn" userLabel="SaveTableCell">
-                                        <rect key="frame" x="0.0" y="98" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="142" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S7G-s9-7Bn" id="4Ng-04-4WR">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -93,7 +100,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationLevel="1" indentationWidth="0.0" textLabel="Sgv-FL-q5H" style="IBUITableViewCellStyleDefault" id="Nbh-2e-Pmf" userLabel="LoadTableCell">
-                                        <rect key="frame" x="0.0" y="142" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="186" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nbh-2e-Pmf" id="cg0-Ww-Bsm">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -110,7 +117,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationLevel="1" indentationWidth="0.0" textLabel="0yy-ge-1hB" style="IBUITableViewCellStyleDefault" id="adU-n1-H3j" userLabel="ClearDataTableCell">
-                                        <rect key="frame" x="0.0" y="186" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="230" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="adU-n1-H3j" id="BRL-Jf-0CL">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -137,6 +144,7 @@
                     <navigationItem key="navigationItem" title="Inventory Scanner" id="Y5T-gQ-DwD"/>
                     <connections>
                         <outlet property="lblLoadData" destination="Sgv-FL-q5H" id="BMS-gL-90l"/>
+                        <outlet property="lblVersion" destination="K30-f1-WdN" id="9hd-NC-GxH"/>
                         <outlet property="lblViewInventory" destination="U9b-ap-MxC" id="tPt-J9-ZPm"/>
                     </connections>
                 </tableViewController>
